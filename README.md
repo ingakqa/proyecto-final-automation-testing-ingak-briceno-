@@ -1,8 +1,8 @@
-# Framework de Automatización de Pruebas Profesional (UI & API)
+# 🧪 Pre-Entrega Automation Testing - Ingak Briceño
 
-Este proyecto consiste en un framework de pruebas automatizadas avanzado y mantenible desarrollado en **Python**, utilizando **Pytest** como motor de pruebas, **Selenium WebDriver** para la automatización de la interfaz gráfica (UI) y la biblioteca **Requests** para la validación de servicios de API REST.
-
-Se aplican estándares de la industria como el patrón de diseño **Page Object Model (POM)**, inyección de datos parametrizados desde archivos externos, reportes visuales dinámicos en HTML y registros de trazabilidad mediante logging corporativo.
+## Propósito del proyecto
+Automatización de pruebas funcionales sobre saucedemo.com
+utilizando Selenium WebDriver y Python.
 
 ## 🚀 Tecnologías Utilizadas
 * **Lenguaje:** Python 3.11+

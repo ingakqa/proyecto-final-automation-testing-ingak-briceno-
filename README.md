@@ -1,4 +1,5 @@
-# 🧪 Pre-Entrega Automation Testing - Ingak Briceño
+# proyecto-final-automation-testing-ingakbriceno
+
 
 ## Propósito del proyecto
 Automatización de pruebas funcionales sobre saucedemo.com

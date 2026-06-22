@@ -221,3 +221,10 @@
 2026-06-22 17:49:22,187 - INFO - ✅ Catalogo verificado con productos listados
 2026-06-22 17:49:27,358 - INFO - Iniciando prueba: Anadir producto al carrito
 2026-06-22 17:49:29,172 - INFO - ✅ Producto anadido al carrito de compras exitosamente
+2026-06-22 19:59:15,479 - INFO - Iniciando prueba: Login con caso 'usuario_valido'
+2026-06-22 19:59:18,071 - INFO - ✅ Login Exitoso verificado correctamente
+2026-06-22 19:59:23,158 - INFO - Iniciando prueba: Login con caso 'usuario_invalido'
+2026-06-22 19:59:24,916 - INFO - ✅ Escenario Negativo validado correctamente
+2026-06-22 20:05:16,018 - INFO - Iniciando prueba: Login con caso 'usuario_valido'
+2026-06-22 20:05:23,930 - INFO - Iniciando prueba: Login con caso 'usuario_invalido'
+2026-06-22 20:05:25,619 - INFO - ✅ Escenario Negativo validado correctamente

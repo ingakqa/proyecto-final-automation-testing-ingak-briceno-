@@ -1,56 +1,89 @@
-# 🧪 Pre-Entrega Automation Testing - Ingak Briceño
+🧪 Pruebas de Automatización Pre-Entrega - Ingak Briceño
+📌 Propósito del proyecto
 
-## Propósito del proyecto
-Automatización de pruebas funcionales sobre saucedemo.com
-utilizando Selenium WebDriver y Python.
+Framework de automatización de pruebas funcionales desarrollado para validar los principales flujos de usuario de SauceDemo, utilizando Selenium WebDriver y Python.
 
-## 🚀 Tecnologías Utilizadas
-* **Lenguaje:** Python 3.11+
-* **Test Runner:** Pytest
-* **UI Automation:** Selenium WebDriver
-* **API Testing:** Requests Library
-* **Reportes:** Pytest-HTML
-* **Control de Versiones:** Git / GitHub
+El proyecto implementa pruebas de interfaz de usuario (UI) y pruebas de servicios API, aplicando buenas prácticas como el patrón Page Object Model (POM), parametrización de datos, generación de reportes y registro de evidencias.
 
-## 📁 Estructura del Proyecto
-```text
+🚀 Tecnologías utilizadas
+Lenguaje: Python 3.11+
+Framework de pruebas: Pytest
+Automatización UI: Selenium WebDriver
+Pruebas API: Requests
+Reportes: Pytest-HTML
+Gestión de datos: Archivos JSON parametrizados
+Control de versiones: Git / GitHub
+📁 Estructura del proyecto
 proyecto-final-automation-testing/
-├── pages/                # Clases bajo el patrón Page Object Model (POM)
+
+├── pages/                  # Page Object Model (POM)
 │   ├── login_page.py
 │   ├── inventory_page.py
 │   ├── cart_page.py
 │   └── checkout_page.py
-├── tests/                # Casos de prueba modulares y ordenados
-│   ├── ui/               # Escenarios funcionales de la plataforma web (SauceDemo)
-│   └── api/              # Escenarios de integración de servicios REST (ReqRes)
-├── utils/                # Utilidades de soporte del framework
-│   ├── data_reader.py    # Lector centralizado de archivos de datos JSON
-│   └── logger.py         # Registrador log de eventos en tiempo real
-├── test_data/            # Archivos JSON externos de parametrización
+
+├── tests/                  # Casos de prueba automatizados
+│   ├── ui/                 # Pruebas funcionales de interfaz (SauceDemo)
+│   └── api/                # Pruebas de servicios REST (ReqRes)
+
+├── utils/                  # Módulos auxiliares
+│   ├── data_reader.py      # Lectura de datos JSON
+│   ├── helpers.py          # Funciones reutilizables
+│   └── logger.py           # Gestión de logs
+
+├── test_data/              # Datos externos de prueba
 │   └── users.json
-├── screenshots/          # Almacenamiento automático de capturas en fallos
-├── reports/              # Almacenamiento de Reportes HTML autogenerados
-├── logs/                 # Archivos físicos persistentes de trazabilidad .log
-├── pytest.ini            # Archivo central de configuración de Pytest
-├── conftest.py           # Inicialización distribuidas de WebDriver y Hooks
-└── README.md             # Documentación técnica del proyecto
-```
 
-## 🛠️ Instalación de Dependencias
-Para desplegar el entorno local de ejecución, instale las librerías requeridas ejecutando:
-```bash
+├── screenshots/            # Evidencias automáticas de fallos
+
+├── reports/                # Reportes HTML generados
+
+├── logs/                   # Registro de ejecución
+
+├── pytest.ini              # Configuración principal de Pytest
+
+├── conftest.py             # Fixtures, WebDriver y hooks
+
+└── README.md
+🛠️ Instalación de dependencias
+
+Instalar las librerías necesarias ejecutando:
+
 pip install selenium pytest pytest-html webdriver-manager requests
-```
+🚦 Ejecución de pruebas
 
-## 🚦 Ejecución de las Pruebas
-Gracias a la centralización lógica en el archivo `pytest.ini`, puede lanzar el framework completo (las 8 pruebas de UI y API coordinadas de forma nativa) ejecutando simplemente:
-```bash
+Para ejecutar la suite completa de pruebas UI y API:
+
 python -m pytest
-```
 
-## 📊 Interpretación de Resultados y Evidencia
-* **Reportes Visuales:** Al finalizar la ejecución, se autogenera un reporte interactivo detallado en `reports/reporte_final.html`. Puede abrirlo en cualquier navegador web para analizar duraciones, estados y metadatos.
-* **Captura de Evidencia (Screenshots):** Si una prueba de UI falla, el hook embebido en `conftest.py` tomará un screenshot de la pantalla de forma automática, guardándolo en la carpeta `screenshots/` e incrustándolo directamente dentro del Reporte HTML.
-* **Trazabilidad (Logs):** Cada paso relevante queda registrado cronológicamente en la consola y de forma persistente dentro del archivo log en `logs/automatizacion.log`.
+El framework ejecutará los escenarios automatizados configurados mediante Pytest.
 
+📊 Resultados y evidencias
+Reportes HTML
+
+Luego de la ejecución se genera un reporte visual:
+
+reports/reporte_final.html
+
+El reporte permite analizar:
+
+Estado de cada prueba.
+Tiempo de ejecución.
+Resultados obtenidos.
+Información del entorno.
+Capturas de pantalla
+
+En caso de fallo durante una prueba UI, el framework captura automáticamente evidencia visual y la almacena en:
+
+screenshots/
+
+Estas evidencias permiten facilitar el análisis y seguimiento de errores.
+
+Logs de ejecución
+
+Los eventos relevantes quedan registrados en:
+
+logs/automatizacion.log
+
+permitiendo mantener trazabilidad sobre la ejecución del framework.
 

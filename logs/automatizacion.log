@@ -228,3 +228,41 @@
 2026-06-22 20:05:16,018 - INFO - Iniciando prueba: Login con caso 'usuario_valido'
 2026-06-22 20:05:23,930 - INFO - Iniciando prueba: Login con caso 'usuario_invalido'
 2026-06-22 20:05:25,619 - INFO - ✅ Escenario Negativo validado correctamente
+2026-06-22 21:16:40,279 - INFO - Ejecutando API: GET usuarios
+2026-06-22 21:16:41,225 - INFO - ✅ API GET verificado con exito
+2026-06-22 21:16:41,229 - INFO - Ejecutando API: POST crear usuario
+2026-06-22 21:16:42,162 - INFO - ✅ API POST verificado con exito
+2026-06-22 21:16:42,165 - INFO - Ejecutando API: DELETE eliminar usuario
+2026-06-22 21:16:43,065 - INFO - ✅ API DELETE verificado con exito
+2026-06-22 21:17:21,354 - INFO - Ejecutando API: GET usuarios
+2026-06-22 21:17:22,140 - INFO - ✅ API GET verificado con exito
+2026-06-22 21:17:22,143 - INFO - Ejecutando API: POST crear usuario
+2026-06-22 21:17:23,624 - INFO - ✅ API POST verificado con exito
+2026-06-22 21:17:23,640 - INFO - Ejecutando API: DELETE eliminar usuario
+2026-06-22 21:17:24,559 - INFO - ✅ API DELETE verificado con exito
+2026-06-22 21:17:28,610 - INFO - Iniciando prueba: End-to-End Checkout completo
+2026-06-22 21:17:35,792 - INFO - ✅ Flujo integral de checkout finalizado en verde
+2026-06-22 21:17:42,512 - INFO - Iniciando prueba: Login con caso 'usuario_valido'
+2026-06-22 21:17:46,143 - INFO - ✅ Login Exitoso verificado correctamente
+2026-06-22 21:17:52,802 - INFO - Iniciando prueba: Login con caso 'usuario_invalido'
+2026-06-22 21:18:02,340 - INFO - ✅ Escenario Negativo validado correctamente
+2026-06-22 21:18:08,727 - INFO - Iniciando prueba: Validacion de catalogo
+2026-06-22 21:18:13,582 - INFO - ✅ Catalogo verificado con productos listados
+2026-06-22 21:18:19,680 - INFO - Iniciando prueba: Anadir producto al carrito
+2026-06-22 21:18:24,165 - INFO - ✅ Producto anadido al carrito de compras exitosamente
+2026-06-22 21:18:42,695 - INFO - Ejecutando API: GET usuarios
+2026-06-22 21:18:43,624 - INFO - ✅ API GET verificado con exito
+2026-06-22 21:18:43,629 - INFO - Ejecutando API: POST crear usuario
+2026-06-22 21:18:44,535 - INFO - ✅ API POST verificado con exito
+2026-06-22 21:18:44,538 - INFO - Ejecutando API: DELETE eliminar usuario
+2026-06-22 21:18:45,429 - INFO - ✅ API DELETE verificado con exito
+2026-06-22 21:18:49,959 - INFO - Iniciando prueba: End-to-End Checkout completo
+2026-06-22 21:18:55,042 - INFO - ✅ Flujo integral de checkout finalizado en verde
+2026-06-22 21:19:01,410 - INFO - Iniciando prueba: Login con caso 'usuario_valido'
+2026-06-22 21:19:05,834 - INFO - ✅ Login Exitoso verificado correctamente
+2026-06-22 21:19:11,987 - INFO - Iniciando prueba: Login con caso 'usuario_invalido'
+2026-06-22 21:19:16,219 - INFO - ✅ Escenario Negativo validado correctamente
+2026-06-22 21:19:23,077 - INFO - Iniciando prueba: Validacion de catalogo
+2026-06-22 21:19:27,081 - INFO - ✅ Catalogo verificado con productos listados
+2026-06-22 21:19:33,628 - INFO - Iniciando prueba: Anadir producto al carrito
+2026-06-22 21:19:37,678 - INFO - ✅ Producto anadido al carrito de compras exitosamente

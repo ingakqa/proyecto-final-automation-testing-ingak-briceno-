@@ -1,4 +1,5 @@
 import pytest
+import pytest_check as check
 import requests
 from utils.logger import configurar_logger
 
@@ -12,10 +13,10 @@ HEADERS = {
 def test_api_get_users():
     log.info("Ejecutando API: GET usuarios")
     respuesta = requests.get("https://jsonplaceholder.typicode.com/users/1", headers=HEADERS)
-    assert respuesta.status_code == 200
+    check.equal(respuesta.status_code, 200)
     datos = respuesta.json()
-    assert "id" in datos
-    assert datos["id"] == 1
+    check.is_in("id", datos)
+    check.equal(datos["id"], 1)
     log.info("✅ API GET verificado con exito")
 
 def test_api_post_user():
@@ -25,9 +26,9 @@ def test_api_post_user():
         "username": "ingak_qa"
     }
     respuesta = requests.post("https://jsonplaceholder.typicode.com/users", json=payload, headers=HEADERS)
-    assert respuesta.status_code == 201
+    check.equal(respuesta.status_code, 201)
     datos = respuesta.json()
-    assert datos["name"] == "Ingak"
+    check.equal(datos["name"], "Ingak")
     log.info("✅ API POST verificado con exito")
 
 def test_api_delete_user():
@@ -37,4 +38,4 @@ def test_api_delete_user():
     log.info("✅ API DELETE verificado con exito")
     
     
-
+    

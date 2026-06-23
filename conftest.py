@@ -50,4 +50,11 @@ def pytest_runtest_makereport(item, call):
                 extra = getattr(rep, "extra", [])
                 extra.append(html.extras.image(screenshot_path))
                 rep.extra = extra
+                
+def pytest_html_report_title(report):
+     report.title = "Reporte Final - Ingak Briceño"
+     
+    
+    
+    
 

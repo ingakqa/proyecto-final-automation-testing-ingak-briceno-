@@ -1,5 +1,6 @@
 [
   "tests/api/test_api_endpoints.py::test_api_delete_user",
+  "tests/api/test_api_endpoints.py::test_api_get_user_no_existente",
   "tests/api/test_api_endpoints.py::test_api_get_users",
   "tests/api/test_api_endpoints.py::test_api_post_user",
   "tests/api/test_api_users.py::test_api_create_user",

@@ -38,4 +38,9 @@ def test_api_delete_user():
     log.info("✅ API DELETE verificado con exito")
     
     
-    
+def test_api_get_user_no_existente():
+    log.info("Ejecutando API: GET usuario inexistente (escenario de error)")
+    respuesta = requests.get("https://jsonplaceholder.typicode.com/users/9999", headers=HEADERS)
+    check.equal(respuesta.status_code, 404)
+    log.info("✅ API GET error 404 verificado con exito")    
+

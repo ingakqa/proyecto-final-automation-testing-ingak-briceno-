@@ -1,0 +1,6 @@
+{
+  "tests/api/test_api_users.py::test_api_get_users": true,
+  "tests/api/test_api_users.py::test_api_post_user": true,
+  "tests/api/test_api_users.py::test_api_delete_user": true,
+  "tests/api/test_api_users.py::test_api_create_user": true
+}

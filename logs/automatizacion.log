@@ -284,3 +284,21 @@
 2026-06-23 08:53:10,220 - INFO - ✅ Catalogo verificado con productos listados
 2026-06-23 08:53:16,357 - INFO - Iniciando prueba: Anadir producto al carrito
 2026-06-23 08:53:22,889 - INFO - ✅ Producto anadido al carrito de compras exitosamente
+2026-06-23 12:21:46,714 - INFO - Ejecutando API: GET usuarios
+2026-06-23 12:21:47,285 - INFO - ✅ API GET verificado con exito
+2026-06-23 12:21:47,289 - INFO - Ejecutando API: POST crear usuario
+2026-06-23 12:21:47,816 - INFO - ✅ API POST verificado con exito
+2026-06-23 12:21:47,820 - INFO - Ejecutando API: DELETE eliminar usuario
+2026-06-23 12:21:48,357 - INFO - ✅ API DELETE verificado con exito
+2026-06-23 12:21:48,362 - INFO - Ejecutando API: GET usuario inexistente (escenario de error)
+2026-06-23 12:21:48,731 - INFO - ✅ API GET error 404 verificado con exito
+2026-06-23 12:21:53,615 - INFO - Iniciando prueba: End-to-End Checkout completo
+2026-06-23 12:21:56,755 - INFO - ✅ Flujo integral de checkout finalizado en verde
+2026-06-23 12:22:01,820 - INFO - Iniciando prueba: Login con caso 'usuario_valido'
+2026-06-23 12:22:03,529 - INFO - ✅ Login Exitoso verificado correctamente
+2026-06-23 12:22:08,524 - INFO - Iniciando prueba: Login con caso 'usuario_invalido'
+2026-06-23 12:22:10,285 - INFO - ✅ Escenario Negativo validado correctamente
+2026-06-23 12:22:15,294 - INFO - Iniciando prueba: Validacion de catalogo
+2026-06-23 12:22:17,070 - INFO - ✅ Catalogo verificado con productos listados
+2026-06-23 12:22:22,087 - INFO - Iniciando prueba: Anadir producto al carrito
+2026-06-23 12:22:23,877 - INFO - ✅ Producto anadido al carrito de compras exitosamente

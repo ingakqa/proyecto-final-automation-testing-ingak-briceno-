@@ -1,9 +1,9 @@
 name: Suite de Pruebas Automation QA (UI & API)
 on:
   push:
-    branches: [ "master", "maestro", "framework-final" ]
+    branches: [ "master", "maestro", "framework-final", "main" ]
   pull_request:
-    branches: [ "master", "maestro", "framework-final" ]
+    branches: [ "master", "maestro", "framework-final", "main" ]
 jobs:
   test:
     runs-on: ubuntu-latest

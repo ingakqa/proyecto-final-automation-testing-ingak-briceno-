@@ -5,6 +5,8 @@ Framework de automatización de pruebas funcionales desarrollado para validar lo
 
 El proyecto implementa pruebas de interfaz de usuario (UI) y pruebas de servicios API, aplicando buenas prácticas como el patrón Page Object Model (POM), parametrización de datos, generación de reportes y registro de evidencias.
 
+
+
 🚀 Tecnologías utilizadas
 Lenguaje: Python 3.11+
 Framework de pruebas: Pytest
@@ -13,7 +15,12 @@ Pruebas API: Requests
 Reportes: Pytest-HTML
 Gestión de datos: Archivos JSON parametrizados
 Control de versiones: Git / GitHub
+
+
+
 📁 Estructura del proyecto
+proyecto-final-automation-testing/
+
 proyecto-final-automation-testing/
 
 ├── pages/                  # Page Object Model (POM)
@@ -45,11 +52,15 @@ proyecto-final-automation-testing/
 ├── conftest.py             # Fixtures, WebDriver y hooks
 
 └── README.md
+
+
 🛠️ Instalación de dependencias
 
 Instalar las librerías necesarias ejecutando:
 
 pip install selenium pytest pytest-html webdriver-manager requests
+
+
 🚦 Ejecución de pruebas
 
 Para ejecutar la suite completa de pruebas UI y API:
@@ -57,6 +68,7 @@ Para ejecutar la suite completa de pruebas UI y API:
 python -m pytest
 
 El framework ejecutará los escenarios automatizados configurados mediante Pytest.
+
 
 📊 Resultados y evidencias
 Reportes HTML
